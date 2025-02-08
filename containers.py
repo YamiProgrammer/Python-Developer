@@ -29,5 +29,5 @@ alphaNum = {
 }
 
 # print(alphaNum["Two"])
-for items in alphaNum:
-    print(items)
+for items in alphaNum.keys():
+    print(alphaNum[items])
