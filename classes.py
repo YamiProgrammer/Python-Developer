@@ -12,5 +12,21 @@ class Animal:
     def breathe(self):
         print("Breathhing...")
 
-animal1 = Animal("dog")
-animal1.eat()
+# animal1 = Animal("dog")
+# animal1.eat()
+
+class Dog(Animal):
+    def sound(self):
+        print("Breaking...")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow...")
+
+dog1 = Dog("Hatchi")
+dog1.eat()
+dog1.sound()
+
+cat1 = Cat("cat")
+cat1.eat()
+cat1.sound()
