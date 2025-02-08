@@ -22,6 +22,9 @@ combo = ["Clarence", 2, 3]
 # numbers.remove(400)
 # print(numbers)
 
+numbers[0] = "A"
+print(numbers)
+
 alphaNum = {
     "One": 1,
     "Two": 2,
@@ -29,5 +32,5 @@ alphaNum = {
 }
 
 # print(alphaNum["Two"])
-for items in alphaNum.keys():
-    print(alphaNum[items])
+# for items in alphaNum.keys():
+#     print(alphaNum[items])
