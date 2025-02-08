@@ -28,4 +28,6 @@ alphaNum = {
     "Three": 3
 }
 
-print(alphaNum["Two"])
+# print(alphaNum["Two"])
+for items in alphaNum:
+    print(items)
