@@ -34,3 +34,6 @@ alphaNum = {
 # print(alphaNum["Two"])
 # for items in alphaNum.keys():
 #     print(alphaNum[items])
+
+coordinates = (2,3)
+coordinates[0] = 10
