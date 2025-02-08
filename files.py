@@ -2,6 +2,7 @@ file = open("Hello.txt", "r")
 # a - append, r - read, w - write
 # file.write("\nHello Adamson")
 numbers = file.readlines()
-print(numbers)
-
+for number in numbers:
+    print(number)
+    
 file.close()
