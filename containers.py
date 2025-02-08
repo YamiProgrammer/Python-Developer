@@ -7,4 +7,7 @@ combo = ["Clarence", 2, 3]
 # for item in combo:
 #     print(item)
 
-print(numbers[1])
+# print(numbers[1])
+
+numbers.append(4)
+print(numbers)
