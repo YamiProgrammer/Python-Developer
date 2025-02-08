@@ -1,5 +1,5 @@
-file = open("Hello.txt", "w")
+file = open("Hello.txt", "a")
 # a - append, r - read, w - write
-file.write("Hello Adamson")
+file.write("\nHello Adamson")
 
 file.close()
