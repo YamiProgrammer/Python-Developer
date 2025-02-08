@@ -5,10 +5,12 @@
 # print(sum)
 
 class Animal:
+    def __init__(self, name):
+        self.name = name
     def eat(self):
         print("Eating...")
     def breathe(self):
         print("Breathhing...")
 
-animal1 = Animal()
+animal1 = Animal("dog")
 animal1.eat()
