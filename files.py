@@ -3,6 +3,6 @@ file = open("Hello.txt", "r")
 # file.write("\nHello Adamson")
 numbers = file.readlines()
 for number in numbers:
-    print(number)
-    
+    print(number.strip())
+
 file.close()
